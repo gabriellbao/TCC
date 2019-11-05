@@ -45,19 +45,19 @@
     </div>
     <br><br>
     <div>    
-    <img src="data_bases/img/index.png" style="width: 100%; height: 80%;">
+    <img src="data_bases/img/index.png" style="width: 100%; height: 83%;">
    <div style="color: white; margin-top: -300px; position: absolute; margin-left: 230px">
         <div class="ui text container">
-              <h1 class="ui inverted header" style="margin-left: 47%;margin-top: -26%;font-size: -webkit-xxx-large;font-weight: bold;font-size: 677%;">
+              <h1 class="ui inverted header" style="margin-left: 42%;margin-top: -20%;font-size: -webkit-xxx-large;font-weight: bold;font-size: 677%;">
                 COMPRAKI
               </h1>
         </div>
         <div class="ui icon input" style="width: 95%; padding-left: 5%">
             <form method="POST" action="produto.php">
                 <div class="ui search">
-                  <div class="ui icon input" style="width: 576%;">
-                    <input class="prompt" type="text" placeholder="O que você procura?" style="height: 44px;">
-                    <i class="search icon"></i>
+                  <div class="ui icon input" style="width:523%;">
+                    <input class="prompt" type="text" placeholder="O que você procura?" style="height: 44px;    margin-left:-1%;">
+                    <i class="search icon" style="padding-left: 6%;"></i>
                   </div>
                 <div class="results"></div>
                 </div>
@@ -93,8 +93,6 @@
 
             
         <a href="produto.php"><button class="massive ui teal button" style="width: 24%;height: 24%;">Frios</button></a>
-
-        <a href="promocao.php"><button class="massive ui teal button" style="width: 24%;height: 24%;background-color: black;">Promoções</button></a>
 
         <div>&nbsp;</div>
         <div>&nbsp;</div>
