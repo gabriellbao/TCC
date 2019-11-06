@@ -57,7 +57,7 @@ $array_produtos = json_decode($json, true);
     <div class="ui fluid three item menu" style="margin-top: 0%;">
         <a href="index.php" class="item" style="padding: 1%;font-size: 121%;">Página Inicial</a>
         <a href="promocao.php" class="item" style="padding: 1%;font-size: 121%;">Promoções</a>
-        <a href="produto.php" class="item active" style="padding: 1%;font-size: 121%;">Todos os Produtos</a>
+        <a href="produto.php" class="item" style="padding: 1%;font-size: 121%;">Todos os Produtos</a>
 </div>
     <br>
     <br><br><br><br>
