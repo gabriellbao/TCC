@@ -5,19 +5,22 @@
     <script type="text/javascript" src="semantic.js"></script>
     <title>Compraki</title>
     <style>
-        #menuzinho a:hover{
+        #menuzinho a:hover {
             background-color: #ff6a00;
         }
-        body{
+
+        body {
             font-family: Montserrat, sans-serif;
             background-color: #f4511e;
 
         }
-        h1{
+
+        h1 {
             font-weight: 100;
             line-height: 1.1;
         }
-        #rodape h2, h3, h4{
+
+        #rodape h2, h3, h4 {
             line-height: 0.1;
         }
     </style>
@@ -47,11 +50,12 @@
             <div class="three wide column">
                 <h4 class="ui inverted header">Mais</h4>
                 <div class="ui inverted link list">
-                <a href="#" class="item">Tabalhe Conosco</a>
-                <a href="#" class="item">Críticas a Empresa</a>
+                    <a href="#" class="item">Tabalhe Conosco</a>
+                    <a href="#" class="item">Críticas a Empresa</a>
                 </div>
             </div>
-        </div> <br>
+        </div>
+        <br>
         <div class="ui icons">
             <i class="ui facebook icon large"></i>
             <i class="ui linkedin icon large"></i>

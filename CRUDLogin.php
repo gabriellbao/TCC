@@ -5,7 +5,7 @@ class Conexao {
     public static $conexao = null;
     public static function getConexao(){
 
-        $con = new PDO("mysql:host=localhost;dbname=compraki", "aluno", "aluno");
+        $con = new PDO("mysql:host=localhost;charset=utf8;dbname=compraki", "aluno", "aluno");
         return $con;
 
     }
@@ -14,17 +14,21 @@ class Conexao {
 
 class CRUDLogin{
 
-        private $conexao;
+    private $conexao;
 
-        function __construct()
-        {
-            $this->conexao = Conexao::getConexao();
-        }
+    function __construct()
+    {
+        $this->conexao = Conexao::getConexao();
+    }
 
         public function login($email, $pwd){
             $consulta = $this->conexao->query("SELECT nome FROM cad_usuario WHERE email = '$email' AND pwd = '$pwd'");
             $row = $consulta->fetch(PDO::FETCH_OBJ);
-            return "ola ".$row->nome;
+            if($row->nome != "") {
+                header("location: index.php?sessao=logado");
+            }else{
+                header("location: Login.php?sessao=Digite_a_senha_corretamente");
+            }
         }
 
         public function cadastrarUsuario($cpf, $rg, $nome, $email, $tel, $cel, $pwd, $tipuser_cd){
@@ -40,6 +44,7 @@ class CRUDLogin{
                 ':pwd' => $pwd,
                 ':tipuser_cd' => $tipuser_cd
         ));
+            header("location: index.php?sessao=logado");
         }
         public function alterarUsuario($cpf, $rg, $nome, $email, $tel, $cel, $pwd){
             $alterar = $this->conexao->prepare('UPDATE cad_usuario set cpf = :cpf and rg = :rg and nome = :nome and email = :email and tel = :tel and cel = :cel and pwd = :pwd where nome = :nome');
@@ -53,7 +58,14 @@ class CRUDLogin{
                 ':pwd' => $pwd,
             ));
         }
+        public function excluirUsuario($pwd){
+            $excluir = $this->conexao->prepare("DELETE from cad_usuario where pwd = '$pwd'");
+            $excluir->execute();
+            return "Excluido com sucesso";
+        }
+
     }
         $crud = new CRUDLogin();
-        echo $crud->cadastrarUsuario($_POST['cpf'], $_POST['rg'], $_POST['nome'], $_POST['email'], $_POST['tel'],$_POST['cel'],$_POST['pwd'], "1");
+        //echo $crud->cadastrarUsuario($_POST['cpf'], $_POST['rg'], $_POST['nome'], $_POST['email'], $_POST['tel'],$_POST['cel'],$_POST['pwd'], "1");
         echo $crud->login($_POST['email'], $_POST['pwd']);
+        //echo $crud->excluirUsuario($_POST['pwd']);
