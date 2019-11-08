@@ -45,9 +45,9 @@
 </div>
 <div class="ui three item menu" style="background-color: #f4511e;
     font-size: 119%;">
-    <a href="pedidos.php" class="item" style="color: white;">Pedidos</a>
+    <a href="pedidos.php" class="active item" style="color: white;">Pedidos</a>
     <a href="entregas.php" class="item" style="color: white;">Entregas</a>
-    <a href="gerente.php" class="active item" style="color: white;">Produtos</a>
+    <a href="gerente.php" class="item" style="color: white;">Produtos</a>
 </div>
 <div class="right menu">
     <div class="item">
@@ -60,17 +60,3 @@
 </div>
 </div>
 </div>
-<div style="margin-top: 4%; margin-left: 25%;">
-    <button class="large ui button" style="padding: 2.785714em 3.5em 2.785714em;border-radius: -14.714286rem;"><i
-                class=" plus icon"></i> Adicionar produto
-    </button>
-    <button class="large ui button" style="padding: 2.785714em 3.5em 2.785714em;border-radius: -14.714286rem;"><i
-                class=" plus icon"></i> Editar produto
-    </button>
-    <button class="large ui button" style="padding: 2.785714em 3.5em 2.785714em;border-radius: -14.714286rem;"><i
-                class=" plus icon"></i> Excluir produto
-    </button>
-</div>
-<br>
-</body>
-</html>

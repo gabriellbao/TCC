@@ -1,9 +1,3 @@
-<?php
-
-$json = file_get_contents('data_bases/produtos.json');
-$array_produtos = json_decode($json, true);
-?>
-
 <html>
     <head>
         <link rel="stylesheet" href="semantic.css" type="text/css">
@@ -61,27 +55,5 @@ $array_produtos = json_decode($json, true);
 </div>
     <br>
     <br><br><br><br>
-
-    <div class="ui link cards" id="cards" style="margin-left: 3.7%;"><?php foreach($array_produtos as $produto): ?>
-    <div class="card" id="cardsJogos">
-        <div class="image">
-            <img src="data_bases/img/<?= $produto['img'] ?>" style="width: 200px; height: 230px;">
-        </div>
-        <div class="content" >
-            <div class="description">
-                <?= $produto['desc'] ?>
-            </div>
-        </div>
-        <div class="extra content">
-      <span class="right floated" style="padding-right: 20px">
-
-      </span>
-            <span>
-        <?= $produto['preco'] ?><i class="tag up icon blue" style="color-text: black; padding-left: 200px;"></i>
-      </span>
-        </div>
-    </div>
-<?php endforeach ?>
-</div>
 </body>
 </html>
