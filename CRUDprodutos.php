@@ -8,7 +8,7 @@ class Conexao
     public static function getConexao()
     {
 
-        $con = new PDO("mysql:host=localhost;charset=utf8; dbname=compraki", "aluno", "aluno");
+        $con = new PDO("mysql:host=localhost;charset=utf8; dbname=compraki", "root", "");
         return $con;
 
     }
@@ -51,9 +51,9 @@ class CRUDprodutos
         return $consulta;
     }
 
-    public function buscaProduto($nome)
+    public function buscaProduto()
     {
-        $busca = $this->conexao->query('SELECT * from produtos where nome = "$nome"');
+        $busca = $this->conexao->query('SELECT * from produtos ');
         return $busca;
     }
 }

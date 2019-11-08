@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <form class="ui form" method="post" action="CRUDCompra.php" style="margin-top: 2%;margin-left: 17%;width: 65%;background-color: #e0e0e0;padding-left: 1%;
+    <form class="ui form" method="post" action="CRUDCompra.php?action=mostra" style="margin-top: 2%;margin-left: 17%;width: 65%;background-color: #e0e0e0;padding-left: 1%;
 	padding-top: 1%;
   padding-right: 1%;
   padding-bottom: 1%;
@@ -193,6 +193,6 @@
             </div>
         </div>
         <div class="ui primary input">
-        <input class="ui primary button" type="submit" value="Confirmar Dados">
+            <input class="ui primary button" type="submit" value="Confirmar Dados">
         </div>
     </form>
