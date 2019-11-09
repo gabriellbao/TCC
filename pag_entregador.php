@@ -48,52 +48,180 @@
     </div>
 </div>
 
-<div class="ui inverted menu">
-    <div class="header item">Brand</div>
-    <div class="active item">Link</div>
-    <a class="item">Link</a>
-    <div class="ui dropdown item">
-        Dropdown
-        <i class="dropdown icon"></i>
-        <div class="menu">
-            <div class="item">Action</div>
-            <div class="item">Another Action</div>
-            <div class="item">Something else here</div>
-            <div class="divider"></div>
-            <div class="item">Separated Link</div>
-            <div class="divider"></div>
-            <div class="item">One more separated link</div>
-        </div>
-    </div>
-    <div class="right menu">
-        <div class="item">
-            <div class="ui transparent inverted icon input">
-                <i class="search icon"></i>
-                <input type="text" placeholder="Search">
-            </div>
-        </div>
-        <a class="item">Link</a>
-    </div>
+<div style="background-color: #f4511e; color: white; margin-top: 2%;
+    padding-top: 7%;margin-bottom: -1%;padding-bottom: 3%;">
+    <h1 style="font-size: 73px;text-align: center; font-family:" Lucida Sans Unicode", "Lucida Grande",
+    sans-serif;>Entregador</h1>
+    <h3 style="font-size: 25px; text-align: center; font-variant: small-caps;opacity: 0.7;"></h3>
+    <div class="ui icon input" style="width: 95%; padding-left: 5%"></div>
 </div>
 &nbsp;
 &nbsp;
 &nbsp;
-<div class="ui card">
-    <div class="ui slide right reveal image">
-        <div class="visible content">
-            <img class="ui fluid image" src="img/arroz.png">
+
+<h1 class="ui dividing header" style="font-size: 200%;margin-left: 4%;margin-right: 3%;margin-top: 6%;">Pedidos para entrega</h1>
+<table class="ui compact celled definition table" style="width: 93%;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-bottom: 9%">
+
+  <thead>
+    <tr>
+      <th>Entregue</th>
+      <th style="text-align: center;">Name</th>
+      <th style="text-align: center;">Endereço</th>
+      <th style="text-align: center;">E-mail address</th>
+      <th style="width: 12%;text-align: center;">Detalhes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox">
+            <label></label>
         </div>
-        <div class="hidden content">
-            <img class="ui fluid image" src="img/cafe.png">
-        </div>
-    </div>
-    <div class="content">
+      </td>
+    <td>
+        <img src="img/avatar.png" class="ui mini rounded image" style="float: left;">
         <div class="content">
-            <div class="header">Title of product</div>
-            <div class="meta">
-                <a class="group">Price</a>
-            </div>
-            <div class="description">One or two sentence description that may go to several lines</div>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Lindsay
+                </font>
+            </font>
         </div>
-    </div>
-</div>
+    </td>
+    <td style="text-align: center;">Rua XV de Novembro, 78</td>
+    <td style="text-align: center;">jhlilk22@yahoo.com</td>
+    <td>
+        <a href="entrega_detalhes.php"><div class="ui small primary button">
+        Abrir pedido
+        </div></a>
+    </td>
+    </tr>
+
+    <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar2.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Mateus Abreu
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua José Carlos, 10</td>
+      <td style="text-align: center;">matteewaringonton@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+    <tr>
+       <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar3.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Caroline da Silva
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua das Palmeiras, 113</td>
+      <td style="text-align: center;">linecarol22@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+       <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar4.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Amanda Oliveira
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua Visconty Trass, 90</td>
+      <td style="text-align: center;">oliveamand83@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+           <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar5.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Leticia Doffman
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua Nereu Ramos, 39</td>
+      <td style="text-align: center;">lee123doff@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+           <tr>
+       <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox">
+            <label></label>
+        </div>
+      </td> 
+      <td>
+          <img src="img/avatar6.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Thiago Tollofi
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua Francisco Marcel, 28</td>
+      <td style="text-align: center;">Thigoo90@gmil.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+  </tbody>
+
+  
+</table>
