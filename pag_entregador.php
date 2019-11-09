@@ -222,6 +222,173 @@
         </div></td>
     </tr>
   </tbody>
+</table>
+
+
+<h1 class="ui dividing header" style="font-size: 200%;margin-left: 4%;margin-right: 3%;margin-top: 6%;">Pedidos Entregues</h1>
+<table class="ui compact celled definition table" style="width: 93%;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-bottom: 9%">
+
+  <thead>
+    <tr>
+      <th>Entregue</th>
+      <th style="text-align: center;">Name</th>
+      <th style="text-align: center;">Endereço</th>
+      <th style="text-align: center;">E-mail address</th>
+      <th style="width: 12%;text-align: center;">Detalhes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox" checked="checked" disabled="disabled">
+            <label></label>
+        </div>
+      </td>
+    <td>
+        <img src="img/avatar.png" class="ui mini rounded image" style="float: left;">
+        <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Lindsay
+                </font>
+            </font>
+        </div>
+    </td>
+    <td style="text-align: center;">Rua XV de Novembro, 78</td>
+    <td style="text-align: center;">jhlilk22@yahoo.com</td>
+    <td>
+        <a href="entrega_detalhes.php"><div class="ui small primary button">
+        Abrir pedido
+        </div></a>
+    </td>
+    </tr>
+
+    <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox" checked="checked" disabled="disabled">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar2.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Mateus Abreu
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua José Carlos, 10</td>
+      <td style="text-align: center;">matteewaringonton@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+    <tr>
+       <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox" checked="checked" disabled="disabled">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar3.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Caroline da Silva
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua das Palmeiras, 113</td>
+      <td style="text-align: center;">linecarol22@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+       <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox" checked="checked" disabled="disabled">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar4.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Amanda Oliveira
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua Visconty Trass, 90</td>
+      <td style="text-align: center;">oliveamand83@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+           <tr>
+      <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox" checked="checked" disabled="disabled">
+            <label></label>
+        </div>
+      </td>
+      <td>
+          <img src="img/avatar5.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Leticia Doffman
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua Nereu Ramos, 39</td>
+      <td style="text-align: center;">lee123doff@yahoo.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+
+           <tr>
+       <td class="collapsing" style="width: 7%;background: #e2e2e2;">
+        <div class="ui fitted toggle checkbox">
+            <input type="checkbox" checked="checked" disabled="disabled">
+            <label></label>
+        </div>
+      </td> 
+      <td>
+          <img src="img/avatar6.png" class="ui mini rounded image" style="float: left;">
+          <div class="content">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                    Thiago Tollofi
+                </font>
+            </font>
+        </div>
+      </td>
+      <td style="text-align: center;">Rua Francisco Marcel, 28</td>
+      <td style="text-align: center;">Thigoo90@gmil.com</td>
+      <td><div class="ui small primary button">
+        Abrir pedido
+        </div></td>
+    </tr>
+  </tbody>
 
   
 </table>
+
