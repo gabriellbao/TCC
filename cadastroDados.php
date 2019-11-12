@@ -90,7 +90,7 @@
             <div class="field">
                 <label>Estado</label>
                 <select id="estado" name="estado" class="ui fluid dropdown">
-                    <option value="Estado">Estado</option>
+                    <option value="">Estado</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AM">Amapá</option>
@@ -174,12 +174,6 @@
                 </div>
             </div>
         </div>
-          <div class="ui form">
-  				<div class="field">
-   				<label>Email</label>
-    			<input type="text" placeholder="Email">
-  				</div>
-			</div>
         <h4 class="ui dividing header">Não quero pagar com cartão de crédito</h4>
         <div class="ui segment">
             <div class="field">
@@ -198,7 +192,7 @@
                 </div>
             </div>
         </div>
-        <div class="ui primary input">
+        <div class="ui primary input" style="margin-left: 43%;">
             <input class="ui primary button" type="submit" value="Confirmar Dados">
         </div>
     </form>
